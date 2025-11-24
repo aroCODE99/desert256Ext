@@ -1,19 +1,43 @@
-# desert256Ext
+# 🌵 desert256Ext
 
 An extended version of the classic **desert256** colorscheme for Vim/Neovim — now with **three variants**:
 
-- **normal** → original desert256 style
-- **dark** → reduced brightness & softer contrast
-- **darker** → deep grayscale — ideal for low-light coding
+- **normal** → balanced classic desert look  
+- **dark** → reduced brightness & softer contrast  
+- **darker** → deep grayscale for low-light coding sessions  
 
-Maintains the warm desert look while improving contrast and comfort on modern dark UIs.
+Preserves desert256’s warmth while ensuring better comfort on modern dark terminals.
+
 ---
 
-## Installation
+## 🚀 Features
+
+✔ Three selectable darkness levels  
+✔ Truecolor support (with 256-color fallback)  
+✔ Works in Vim and Neovim  
+✔ Clean contrast and readable syntax highlighting  
+✔ Easy customization for power users  
+
+---
+
+## 📦 Installation
 
 ### Using Vim-Plug
-Add this to your `.vimrc` or `init.vim`:
+
+Add this to your `~/.vimrc` or `init.vim`:
 
 ```vim
+<<<<<<< HEAD
 Plug 'aroCODE99/desert256Ext'
+=======
+Plug 'your-user/desert256Ext'
+>>>>>>> 144a1e5 (fixed readme file)
 
+```Set the variant before loading the theme:
+
+" Options: normal | dark | darker
+let g:desert_variant = "darker"
+colorscheme desert256Ext
+
+If you do not set g:desert_variant:
+🟩 Default: normal
