@@ -15,5 +15,5 @@ Maintains the warm desert look while improving contrast and comfort on modern da
 Add this to your `.vimrc` or `init.vim`:
 
 ```vim
-Plug 'your-user/desert256-extended'
+Plug 'aroCODE99/desert256Ext'
 
