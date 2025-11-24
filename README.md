@@ -28,10 +28,8 @@ Add this to your `~/.vimrc` or `init.vim`:
 
 ```vim
 <<<<<<< HEAD
+<<<<<<< HEAD
 Plug 'aroCODE99/desert256Ext'
-=======
-Plug 'your-user/desert256Ext'
->>>>>>> 144a1e5 (fixed readme file)
 
 ```Set the variant before loading the theme:
 
